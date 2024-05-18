@@ -1,0 +1,16 @@
+@model TeacherModel;
+
+@{
+    ViewData["Title"] = "Lista de Profesores";
+}
+
+<h1 class="display-2">Lista de maestros</h1>
+<h3>@Model.Nombre.ToUpper() Es un maestro de la carrera @Model.Carrera @Model.Matricula
+    @Model.Sexo </h3>
+
+<img src="~/imagenes/zorromeme.jpg" width="500" height="600">
+
+<div class="text-center">
+    @* <h1 class="display-4">Welcome</h1> *@
+    @* <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p> *@
+</div>
